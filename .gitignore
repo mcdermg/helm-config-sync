@@ -1,0 +1,5 @@
+# folder for nomos hydrate commands
+hydrate/
+
+# Also need to hide the charts from itself...
+/base/charts
