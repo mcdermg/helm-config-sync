@@ -5,8 +5,8 @@ helmCharts:
   releaseName: my-cert-manager
   namespace: cert-manager
   valuesFile: values.yaml
-- name: k8status
-  repo: https://stenic.github.io/k8status
-  version: 0.14.1
-  releaseName: k8status
-  namespace: k8status
+# - name: k8status
+#   repo: https://stenic.github.io/k8status
+#   version: 0.14.1
+#   releaseName: k8status
+#   namespace: k8status
