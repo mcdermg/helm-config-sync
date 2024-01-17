@@ -1,8 +1,0 @@
-apiVersion: builtin
-kind: HelmChartInflationGenerator
-metadata:
-  name: kubeview
-chartName: kubeview
-releaseName: kubeview
-releaseNamespace: kubeview
-chartRepoUrl:  https://benc-uk.github.io/kubeview/charts
