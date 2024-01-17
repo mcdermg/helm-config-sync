@@ -1,15 +1,8 @@
 apiVersion: builtin
 kind: HelmChartInflationGenerator
 metadata:
-  # The name here doesn't matter.
-  name: notImportantHere
-# The name of the chart to use
+  name: kubeview
 chartName: kubeview
-# The name of the release
 releaseName: kubeview
-# # Path to a values.yaml
-# values: values.yaml
-# Namespace to deploy to
 releaseNamespace: kubeview
-# URL to the Repo
 chartRepoUrl:  https://benc-uk.github.io/kubeview/charts
